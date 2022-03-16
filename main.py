@@ -1,0 +1,37 @@
+import sys 
+import time 
+def slowprint(s):
+	for c in s + '\n':
+		sys.stdout.write(c) 
+		sys.stdout.flush() 
+		time.sleep(1./10)
+slowprint("i am robot made by Ayush.s")
+print()
+slowprint("I used Python to make this")
+print()
+slowprint("what's your name?")
+name=input()
+print()
+print("Nice to meet you",name)
+print()
+slowprint("Where are you from")
+place=input()
+print()
+slowprint("Wow i love "+" "+place)
+print()
+slowprint("Do you want to learn Python?")
+learn=input()
+if learn=="yes" or "no":
+	slowprint("Wow you came to the right place")
+else:
+	slowprint("oops, sorry wrong place")
+print()
+slowprint("Here you will get videos on programming")
+print()
+slowprint("Bye!!")
+print()
+slowprint("All credits goes to Ayush.s")
+print()
+slowprint("Made by Ayush!")
+print()
+slowprint("The Code is in github link: https://github.com/Ayushssss/automatic-bot-messager")
